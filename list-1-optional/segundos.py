@@ -9,4 +9,4 @@ seconds_rest = total_seconds % 3600
 minutes = seconds_rest // 60
 final_seconds = seconds_rest % 60
 
-print(days," dias,", hours, "horas,", minutes, "minutos e",final_seconds, "segundos.")
+print(days,"dias,", hours, "horas,", minutes, "minutos e",final_seconds, "segundos.")
