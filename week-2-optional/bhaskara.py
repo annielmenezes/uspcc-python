@@ -16,4 +16,9 @@ else:
     x1 = (- b + math.sqrt(delta)) / 2 * a
     x2 = (- b - math.sqrt(delta)) / 2 * a
     if x1 < x2:
-        print("as raízes da equação são "+ str(x1) +" e "+ str(x2))
+        x = x2
+        y = x1
+    else:
+        x = x2
+        y = x1
+    print("as raízes da equação são "+ str(x) +" e "+ str(y))
